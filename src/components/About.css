@@ -1,0 +1,68 @@
+.about-page {
+  padding: 20px;
+}
+
+.sections {
+  margin-top: 20px;
+}
+
+.sections ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sections ul li {
+  cursor: pointer;
+  padding: 10px;
+  background: #bab6b3;
+  margin: 5px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.sections ul li:hover {
+  background: #dcdcdc;
+}
+@keyframes blink {
+  0% { color: #007bff; }
+  50% { color: #dc3545; }
+  100% { color: #007bff; }
+}
+
+.click-text.blink {
+  animation: blink 1s infinite;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.section-content img {
+  max-width: 300px;
+  max-height: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.section-content div {
+  flex: 1;
+}
+
+.section-content h2,
+.section-content h3 {
+  margin-top: 0;
+}
+
+.section-content p {
+  text-align: justify;
+}
+.list-icon {
+  width: 24px; /* Adjust the width to your desired size */
+  height: auto;
+  margin-right: 10px; /* Add some margin between the icon and text */
+}

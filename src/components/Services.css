@@ -1,0 +1,43 @@
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .service-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align the entire service card content */
+  }
+  
+  .service-card img {
+    width: 200px; /* Set a fixed width for images */
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto; /* Center align the image */
+  }
+  
+  .service-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .service-card p {
+    line-height: 1.6;
+  }
+  
+  .learn-more-text {
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .service-details {
+    margin-top: 10px;
+  }
+  

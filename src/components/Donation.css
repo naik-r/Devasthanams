@@ -1,0 +1,75 @@
+.formContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #deec22;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    color: #555;
+  }
+  
+  .column {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .formGroup {
+    flex: 1 1 45%;
+    margin: 10px 2.5%;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .button {
+    align-self: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+  
+  .qrCodeContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

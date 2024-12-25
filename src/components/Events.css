@@ -1,0 +1,38 @@
+.events-container {
+  padding: 20px;
+}
+
+.page-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-image {
+  width: auto;
+  height: 200px; /* Adjust this value to set the image height */
+  object-fit: cover;
+}
+
+.event-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.event-details h2 {
+  margin-top: 0;
+  color: #3498db; /* Change this to your desired color */
+}
+.event-details p {
+  margin: 5px 0;
+}

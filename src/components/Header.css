@@ -1,0 +1,14 @@
+/* CSS */
+header {
+    background: maroon;
+    color: #fff;
+    padding: 1rem 0; /* Reduced padding */
+    text-align: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust size as needed */
+    margin-right: 10px;
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+  
